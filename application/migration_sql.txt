@@ -1,0 +1,2 @@
+INSERT INTO `msds_v2`.`msds` (`manufacturer`, `name`, `pdf`, `synonym`, `created_at`, `updated_at`) 
+SELECT `manufacturer`, `name`, `pdf`, `synonym`, NOW() AS `created_at`, NOW() AS `updated_at` FROM `msds`.`msds`

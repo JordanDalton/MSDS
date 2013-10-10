@@ -1,0 +1,42 @@
+body {
+	background: #FAD443 url('../img/yellow_stripes.png');
+}
+
+.navbar-googlebar.navbar-inverse .navbar-inner {
+	background: #4E4E4E url('../img/gray_stripes.png');
+	box-shadow: 0 0 10px #000;
+	-moz-box-shadow: 0 0 10px #000;
+	-webkit-box-shadow: 0 0 10px #000;
+}
+
+body#auth.login form {
+	box-shadow: 0 0 20px #aaa;
+	-moz-box-shadow: 0 0 20px #aaa;
+	-webkit-box-shadow: 0 0 20px #aaa;
+}
+
+body#msds.index a.btn:hover { 
+	box-shadow:0 5px 10px #aaa;
+	-moz-box-shadow:0 5px 10px #aaa;
+	-webkit-box-shadow:0 5px 10px #aaa;
+}
+
+body#msds.index i.icon-remove { 
+	color: #aaa;
+}
+
+body#msds.show #pdfContainer {
+	margin-top:-13px;
+}
+
+/*
+#msdsSearchForm #searchButton i {  }
+body#msds.index .modal,
+body#msds.index .modal .modal-footer { background-color:#464646; }
+body#msds.index .modal .modal-header { border-bottom:1px solid #555;color:#ffcc00;display:none; }
+body#msds.index .modal .modal-body { 
+	overflow-y:auto;
+  max-height: 400px;
+  padding: 0 0 0 0;
+}
+*/
