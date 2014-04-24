@@ -251,8 +251,9 @@ class Msds_Controller extends Base_Controller {
 
         		// Save the pdf data to the database record
         		// 
-				$msds_record->pdf_date = My_File::getPdfModifiedDate( $msds_record->pdf );
-				$msds_record->save();
+        		$msds_record->pdf      = $msds_record->id . '.pdf';
+			$msds_record->pdf_date = My_File::getPdfModifiedDate( $msds_record->pdf );
+			$msds_record->save();
         	}
 
         	// Redirect back to the edit form with successfull update message.
